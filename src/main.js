@@ -3,6 +3,13 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
+// element 完整引入
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+// import 'element-ui/lib/theme-green/index.css';
+Vue.use(ElementUI);
+
+
 Vue.config.productionTip = false;
 
 new Vue({
